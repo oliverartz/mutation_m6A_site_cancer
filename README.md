@@ -23,9 +23,10 @@ Original data was downloaded from `TCGA` and publications mentioned in `Table_S1
 ### Analysis
 Data analysis was performed as described in the manuscript. For additional information, please refer to the scripts below.
 
-The m<sup>6</sup>A data set was compiled using the following scripts:
+M<sup>6</sup>A data set compilation and motif annotation was achieved using the following scripts:
 - `001_make_m6A_data_set.R`
 - `001.1_make_motifs_data_set.R`
+- `001_annotate_gained_motifs.R`
 
 Subsequently the following scripts were used for further analyses and visualizations: 
 
